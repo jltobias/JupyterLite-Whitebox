@@ -1,6 +1,6 @@
 # Math and Statistics
 
-This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding [live JupyterLite notebook](../lab/index.html?path=07_Math_and_Stats.ipynb).
+This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding <a href="https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=07_Math_and_Stats.ipynb">live JupyterLite notebook</a>.
 
 ## Tool: zonal_statistics
 

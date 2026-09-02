@@ -1,6 +1,6 @@
 # Image Analysis
 
-This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding [live JupyterLite notebook](../lab/index.html?path=05_Image_Analysis.ipynb).
+This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding <a href="https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=05_Image_Analysis.ipynb">live JupyterLite notebook</a>.
 
 ## Tool: gaussian_filter
 

@@ -1,6 +1,6 @@
 # Data Tools
 
-This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding [live JupyterLite notebook](../lab/index.html?path=02_Data_Tools.ipynb).
+This chapter presents representative WhiteboxTools workflows. Each tool is expanded in the corresponding <a href="https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=02_Data_Tools.ipynb">live JupyterLite notebook</a>.
 
 ## Tool: convert_raster_format
 
