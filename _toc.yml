@@ -4,12 +4,12 @@ chapters:
   - file: content/datasets
   - file: content/00_Welcome
   - file: content/01_Architecture_and_Compatibility
-  - file: content/02_Data_Tools
-  - file: content/03_GIS_Analysis
-  - file: content/04_Hydrological_Analysis
-  - file: content/05_Image_Analysis
-  - file: content/06_LiDAR_Analysis
-  - file: content/07_Math_and_Stats
-  - file: content/08_Stream_Network_Analysis
-  - file: content/09_Terrain_Analysis
+  - file: content/02_Data_Tools.md
+  - file: content/03_GIS_Analysis.md
+  - file: content/04_Hydrological_Analysis.md
+  - file: content/05_Image_Analysis.md
+  - file: content/06_LiDAR_Analysis.md
+  - file: content/07_Math_and_Stats.md
+  - file: content/08_Stream_Network_Analysis.md
+  - file: content/09_Terrain_Analysis.md
   - file: content/10_API_Catalog
