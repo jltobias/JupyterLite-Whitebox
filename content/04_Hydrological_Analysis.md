@@ -4,7 +4,7 @@ DEM conditioning, flow routing, stream extraction, and watersheds.
 
 This chapter provides the conceptual workflow and dataset context.
 
-Use the [interactive JupyterLite notebook](../lab/index.html?path=04_Hydrological_Analysis.ipynb) to inspect each WhiteboxTools wrapper and run browser-safe cells.
+Use the [interactive JupyterLite notebook](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=04_Hydrological_Analysis.ipynb) to inspect each WhiteboxTools wrapper and run browser-safe cells.
 
 ## Dataset context
 
