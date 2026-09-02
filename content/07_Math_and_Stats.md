@@ -4,7 +4,7 @@ Zonal summaries, raster comparisons, normalization, and percentiles.
 
 This chapter provides the conceptual workflow and dataset context.
 
-Use the [interactive JupyterLite notebook](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=07_Math_and_Stats.ipynb) to inspect each WhiteboxTools wrapper and run browser-safe cells.
+Use the <a href="https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=07_Math_and_Stats.ipynb">interactive JupyterLite notebook</a> to inspect each WhiteboxTools wrapper and run browser-safe cells.
 
 ## Dataset context
 

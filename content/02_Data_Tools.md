@@ -4,7 +4,7 @@ Meuse, SIDS, DEM, LiDAR, and hydrography inputs.
 
 This chapter provides the conceptual workflow and dataset context.
 
-Use the [interactive JupyterLite notebook](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=02_Data_Tools.ipynb) to inspect each WhiteboxTools wrapper and run browser-safe cells.
+Use the <a href="https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=02_Data_Tools.ipynb">interactive JupyterLite notebook</a> to inspect each WhiteboxTools wrapper and run browser-safe cells.
 
 ## Dataset context
 
