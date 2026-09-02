@@ -1,0 +1,10 @@
+title: WhiteboxTools with JupyterLite
+author: JupyterLite-Whitebox contributors
+execute:
+  execute_notebooks: off
+repository:
+  url: https://github.com/jltobias/JupyterLite-Whitebox
+  branch: main
+html:
+  use_repository_button: true
+  use_issues_button: false
