@@ -1,0 +1,4 @@
+title: WhiteboxTools with JupyterLite
+author: JupyterLite-Whitebox contributors
+execute:
+  execute_notebooks: off

@@ -28,9 +28,9 @@ jobs:
           python -m pip show jupyter-book
       - name: Build JupyterBook
         run: |
-          jupyter-book build . --builder html
+          jupyter-book build book --builder html
           mkdir -p dist/book
-          cp -R _build/html/. dist/book/
+          cp -R book/_build/html/. dist/book/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

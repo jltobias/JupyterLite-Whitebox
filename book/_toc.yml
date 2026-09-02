@@ -1,0 +1,11 @@
+format: jb-book
+root: index
+chapters:
+  - file: 02_Data_Tools
+  - file: 03_GIS_Analysis
+  - file: 04_Hydrological_Analysis
+  - file: 05_Image_Analysis
+  - file: 06_LiDAR_Analysis
+  - file: 07_Math_and_Stats
+  - file: 08_Stream_Network_Analysis
+  - file: 09_Terrain_Analysis
