@@ -23,10 +23,19 @@ jobs:
       - name: Build JupyterLite
         run: jupyter lite build --contents content --output-dir dist
       - name: Build JupyterBook
+        shell: bash
         run: |
-          jupyter-book build . --builder html
+          set -o pipefail
+          jupyter-book --version
+          jupyter-book build . --builder html 2>&1 | tee jupyterbook-build.log
           mkdir -p dist/book
           cp -R _build/html/. dist/book/
+      - name: Upload JupyterBook diagnostic log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jupyterbook-build-log
+          path: jupyterbook-build.log
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
