@@ -4,6 +4,25 @@ Interactive, browser-based notebooks for learning the **WhiteboxTools Python API
 
 > **Important compatibility note:** the `whitebox` PyPI package is a Python front end around the native WhiteboxTools executable. JupyterLite runs Python in WebAssembly in the browser and cannot launch native subprocess executables. These notebooks therefore use JupyterLite for API discovery, signatures/docstrings, workflow design, and browser-safe visual demonstrations. Cells that actually execute WhiteboxTools are clearly marked for a normal Python kernel (local Jupyter, Binder, Colab, etc.).
 
+## Live links
+
+- [Open the JupyterLite notebook collection](https://jltobias.github.io/JupyterLite-Whitebox/)
+- [Open the JupyterBook](https://jltobias.github.io/JupyterLite-Whitebox/book/)
+
+Direct notebook links:
+
+- [Welcome](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=00_Welcome.ipynb)
+- [Architecture and compatibility](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=01_Architecture_and_Compatibility.ipynb)
+- [Data Tools](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=02_Data_Tools.ipynb)
+- [GIS Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=03_GIS_Analysis.ipynb)
+- [Hydrological Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=04_Hydrological_Analysis.ipynb)
+- [Image Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=05_Image_Analysis.ipynb)
+- [LiDAR Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=06_LiDAR_Analysis.ipynb)
+- [Mathematical and Statistical Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=07_Math_and_Stats.ipynb)
+- [Stream Network Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=08_Stream_Network_Analysis.ipynb)
+- [Terrain Analysis](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=09_Terrain_Analysis.ipynb)
+- [API Catalog](https://jltobias.github.io/JupyterLite-Whitebox/lab/index.html?path=10_API_Catalog.ipynb)
+
 ## Try the JupyterLite site
 
 After GitHub Pages is enabled with **GitHub Actions** as its source and the deployment workflow has run:
