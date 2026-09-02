@@ -10,6 +10,16 @@ def is_jupyterlite(): return "pyodide" in sys.modules
 def whitebox_class():
     from whitebox.whitebox_tools import WhiteboxTools
     return WhiteboxTools
+def api_search(keywords=(), limit=40):
+    cls = whitebox_class(); words = [w.lower() for w in keywords]; rows = []
+    for name, fn in inspect.getmembers(cls, inspect.isfunction):
+        if name.startswith('_'): continue
+        doc = inspect.getdoc(fn) or ''
+        if not words or any(w in (name + ' ' + doc).lower() for w in words):
+            try: signature = str(inspect.signature(fn))
+            except Exception: signature = '(...)'
+            rows.append((name, signature, doc.splitlines()[0] if doc else ''))
+    return rows[:limit]
 def show_tool(name):
     cls = whitebox_class(); fn = getattr(cls, name, None)
     if fn is None: print(f"{name}: wrapper method not found in this installed version."); return None
