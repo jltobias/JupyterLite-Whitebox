@@ -1,6 +1,7 @@
 format: jb-book
 root: content/README
 chapters:
+  - file: content/datasets
   - file: content/00_Welcome
   - file: content/01_Architecture_and_Compatibility
   - file: content/02_Data_Tools
